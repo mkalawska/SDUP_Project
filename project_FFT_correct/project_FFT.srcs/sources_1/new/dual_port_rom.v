@@ -10,9 +10,7 @@ module dual_port_rom
 
 //memory declaration.
 reg [49:0] rom[8077:0];
-reg [49:0] rom_data_0;
-reg [49:0] rom_data_1;
-parameter MEM_INIT_FILE = "datarom.hex";
+parameter MEM_INIT_FILE = "data_rom.hex";
 
 // Initialize RAM from file
 initial begin

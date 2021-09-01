@@ -36,10 +36,10 @@ signal_rtl signal( clock, reset, start, A, B, C, R, ready_out, RE, IM );
     begin
          #10;
         if (iter < 5 ) iter = iter + 1; else iter = 0;
-         A <= 20 * iter;
-         B <= 30 * iter;
-         C <= 40 * iter;
-         R <= 50 * iter;
+         A <= 113 * iter;
+         B <= 67 * iter;
+         C <= 98 * iter;
+         R <= 120 * iter;
          
      $display("Values: RE=%f, IM=%f", RE, IM);
     end
