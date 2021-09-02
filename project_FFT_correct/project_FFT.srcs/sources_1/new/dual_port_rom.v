@@ -15,7 +15,7 @@ parameter MEM_INIT_FILE = "data_rom.hex";
 // Initialize RAM from file
 initial begin
   if (MEM_INIT_FILE != "") begin
-    $readmemh("datarom.hex", rom);
+    $readmemh(MEM_INIT_FILE, rom);
   end
 end
 always @(posedge clock) begin

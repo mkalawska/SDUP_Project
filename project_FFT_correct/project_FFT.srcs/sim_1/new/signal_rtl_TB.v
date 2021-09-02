@@ -35,11 +35,11 @@ signal_rtl signal( clock, reset, start, A, B, C, R, ready_out, RE, IM );
     always @ (posedge ready_out)
     begin
          #10;
-        if (iter < 5 ) iter = iter + 1; else iter = 0;
-         A <= 113 * iter;
-         B <= 67 * iter;
+        if (iter < 5 ) iter = iter + 1; else iter = 1;
+         A <= 123 * iter;
+         B <= 102 * iter;
          C <= 98 * iter;
-         R <= 120 * iter;
+         R <= 30 * iter;
          
      $display("Values: RE=%f, IM=%f", RE, IM);
     end

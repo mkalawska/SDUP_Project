@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/user/Desktop/Studia/SDUP/new/SDUP_Project/project_FFT_correct/project_FFT.sim/sim_1/behav/xsim/xsim.dir/signal_rtl_TB_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Thu Sep  2 10:09:00 2021" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Thu Sep  2 19:25:11 2021" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2018.3 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2405991" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "f4231c13-496c-44a2-a249-d9582691b389" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "193242f74caa4730980bd124ebd2fe98" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "102" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "116" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "AMD Ryzen 7 4700U with Radeon Graphics         " -context "user_environment"
@@ -36,7 +36,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "41" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "4" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip unimacro_ver unisims_ver " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.44_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "38744_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 2488987205 -regid "" -xml C:/Users/user/Desktop/Studia/SDUP/new/SDUP_Project/project_FFT_correct/project_FFT.sim/sim_1/behav/xsim/xsim.dir/signal_rtl_TB_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/user/Desktop/Studia/SDUP/new/SDUP_Project/project_FFT_correct/project_FFT.sim/sim_1/behav/xsim/xsim.dir/signal_rtl_TB_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/user/Desktop/Studia/SDUP/new/SDUP_Project/project_FFT_correct/project_FFT.sim/sim_1/behav/xsim/xsim.dir/signal_rtl_TB_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "1.19_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "38772_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 3662052614 -regid "" -xml C:/Users/user/Desktop/Studia/SDUP/new/SDUP_Project/project_FFT_correct/project_FFT.sim/sim_1/behav/xsim/xsim.dir/signal_rtl_TB_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/user/Desktop/Studia/SDUP/new/SDUP_Project/project_FFT_correct/project_FFT.sim/sim_1/behav/xsim/xsim.dir/signal_rtl_TB_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/user/Desktop/Studia/SDUP/new/SDUP_Project/project_FFT_correct/project_FFT.sim/sim_1/behav/xsim/xsim.dir/signal_rtl_TB_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
