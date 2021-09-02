@@ -32,7 +32,7 @@ signal_rtl signal( clock, reset, start, A, B, C, R, ready_out, RE, IM );
        //  #30 start <= 1'b0;
       //  end
     //Catch output
-    always @ (posedge clock)
+    always @ (posedge ready_out)
     begin
          #10;
         if (iter < 5 ) iter = iter + 1; else iter = 0;
