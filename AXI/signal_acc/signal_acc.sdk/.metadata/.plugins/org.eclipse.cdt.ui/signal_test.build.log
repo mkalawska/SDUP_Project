@@ -1,4 +1,4 @@
-18:08:57 **** Auto Build of configuration Debug for project signal_test ****
+23:15:54 **** Auto Build of configuration Debug for project signal_test ****
 make all 
 'Building file: ../src/main.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -8,10 +8,14 @@ mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../signal_test_b
 'Building target: signal_test.elf'
 'Invoking: MicroBlaze gcc linker'
 mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../signal_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "signal_test.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-c:/xilinx/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
-(.text+0x78): undefined reference to `main'
-collect2.exe: error: ld returned 1 exit status
-make: *** [makefile:38: signal_test.elf] Error 1
+'Finished building target: signal_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size signal_test.elf  |tee "signal_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3868	    368	   3116	   7352	   1cb8	signal_test.elf
+'Finished building: signal_test.elf.size'
+' '
 
-18:08:58 Build Finished (took 1s.26ms)
+23:15:55 Build Finished (took 1s.448ms)
 

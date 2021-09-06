@@ -1,8 +1,9 @@
 Vivado Simulator 2018.3
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto f7a5817600684b38b7f8d6537057cfad --incr --debug typical --relax --mt 2 -L xil_defaultlib -L microblaze_v11_0_0 -L axi_lite_ipif_v3_0_4 -L lib_cdc_v1_0_2 -L interrupt_control_v3_1_4 -L axi_gpio_v2_0_20 -L lmb_v10_v3_0_9 -L lmb_bram_if_cntlr_v4_0_15 -L blk_mem_gen_v8_4_2 -L mdm_v3_2_15 -L proc_sys_reset_v5_0_13 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_18 -L fifo_generator_v13_2_3 -L axi_data_fifo_v2_1_17 -L axi_crossbar_v2_1_19 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mb_design_wrapper_behav xil_defaultlib.mb_design_wrapper xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto f7a5817600684b38b7f8d6537057cfad --incr --debug typical --relax --mt 2 -L xil_defaultlib -L microblaze_v11_0_0 -L axi_lite_ipif_v3_0_4 -L lib_cdc_v1_0_2 -L interrupt_control_v3_1_4 -L axi_gpio_v2_0_20 -L lmb_v10_v3_0_9 -L lmb_bram_if_cntlr_v4_0_15 -L blk_mem_gen_v8_4_2 -L mdm_v3_2_15 -L proc_sys_reset_v5_0_13 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_18 -L fifo_generator_v13_2_3 -L axi_data_fifo_v2_1_17 -L axi_crossbar_v2_1_19 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mb_design_tb_behav xil_defaultlib.mb_design_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 50 differs from formal bit length 12 for port 'gpio_rtl_R_tri_io' [C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v:67]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -229,5 +230,6 @@ Compiling architecture imp of entity proc_sys_reset_v5_0_13.proc_sys_reset [\pro
 Compiling architecture mb_design_rst_clk_wiz_1_100m_0_arch of entity xil_defaultlib.mb_design_rst_clk_wiz_1_100M_0 [mb_design_rst_clk_wiz_1_100m_0_d...]
 Compiling module xil_defaultlib.mb_design
 Compiling module xil_defaultlib.mb_design_wrapper
+Compiling module xil_defaultlib.mb_design_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot mb_design_wrapper_behav
+Built simulation snapshot mb_design_tb_behav

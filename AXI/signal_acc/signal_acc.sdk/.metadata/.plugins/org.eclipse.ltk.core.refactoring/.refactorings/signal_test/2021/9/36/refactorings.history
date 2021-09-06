@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;signal_test/Debug/src/signal_ip&apos; to &apos;signal_ip.h&apos;" description="Rename resource &apos;signal_ip&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/src/signal_ip" name="signal_ip.h" stamp="1630954222949" updateReferences="true"/>
+</session>

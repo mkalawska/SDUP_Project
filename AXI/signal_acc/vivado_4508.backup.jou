@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Sep  6 20:07:20 2021
+# Process ID: 4508
+# Current directory: C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22260 C:\Users\Magda\Desktop\Projekt_SDUP\SDUP_Project\AXI\signal_acc\signal_acc.xpr
+# Log file: C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/vivado.log
+# Journal file: C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.sdk -hwspec C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.sdk/mb_design_wrapper.hdf
+file mkdir C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v w ]
+add_files -fileset sim_1 C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+open_bd_design {C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sources_1/bd/mb_design/mb_design.bd}
+generate_target all [get_files  C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sources_1/bd/mb_design/mb_design.bd]
+catch { config_ip_cache -export [get_ips -all mb_design_microblaze_0_0] }
+catch { config_ip_cache -export [get_ips -all mb_design_axi_gpio_0_0] }
+catch { config_ip_cache -export [get_ips -all mb_design_axi_gpio_0_1] }
+catch { config_ip_cache -export [get_ips -all mb_design_axi_gpio_0_2] }
+catch { config_ip_cache -export [get_ips -all mb_design_axi_gpio_0_3] }
+catch { config_ip_cache -export [get_ips -all mb_design_axi_gpio_0_4] }
+catch { config_ip_cache -export [get_ips -all mb_design_axi_gpio_0_5] }
+catch { config_ip_cache -export [get_ips -all mb_design_dlmb_v10_0] }
+catch { config_ip_cache -export [get_ips -all mb_design_ilmb_v10_0] }
+catch { config_ip_cache -export [get_ips -all mb_design_dlmb_bram_if_cntlr_0] }
+catch { config_ip_cache -export [get_ips -all mb_design_ilmb_bram_if_cntlr_0] }
+catch { config_ip_cache -export [get_ips -all mb_design_lmb_bram_0] }
+catch { config_ip_cache -export [get_ips -all mb_design_mdm_1_0] }
+catch { config_ip_cache -export [get_ips -all mb_design_clk_wiz_1_0] }
+catch { config_ip_cache -export [get_ips -all mb_design_rst_clk_wiz_1_100M_0] }
+catch { config_ip_cache -export [get_ips -all mb_design_xbar_0] }
+export_ip_user_files -of_objects [get_files C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sources_1/bd/mb_design/mb_design.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sources_1/bd/mb_design/mb_design.bd]
+launch_runs -jobs 2 {mb_design_microblaze_0_0_synth_1 mb_design_axi_gpio_0_0_synth_1 mb_design_axi_gpio_0_1_synth_1 mb_design_axi_gpio_0_2_synth_1 mb_design_axi_gpio_0_3_synth_1 mb_design_axi_gpio_0_4_synth_1 mb_design_axi_gpio_0_5_synth_1 mb_design_dlmb_v10_0_synth_1 mb_design_ilmb_v10_0_synth_1 mb_design_dlmb_bram_if_cntlr_0_synth_1 mb_design_ilmb_bram_if_cntlr_0_synth_1 mb_design_lmb_bram_0_synth_1 mb_design_mdm_1_0_synth_1 mb_design_clk_wiz_1_0_synth_1 mb_design_rst_clk_wiz_1_100M_0_synth_1 mb_design_xbar_0_synth_1}
+export_simulation -of_objects [get_files C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sources_1/bd/mb_design/mb_design.bd] -directory C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.ip_user_files -ipstatic_source_dir C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.cache/compile_simlib/modelsim} {questa=C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.cache/compile_simlib/questa} {riviera=C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.cache/compile_simlib/riviera} {activehdl=C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+add_files -norecurse C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.sdk/signal_test/Debug/signal_test.elf
+set_property used_in_simulation 0 [get_files C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.sdk/signal_test/Debug/signal_test.elf]
+add_files -fileset sim_1 -norecurse C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.sdk/signal_test/Debug/signal_test.elf
+set_property SCOPED_TO_REF mb_design [get_files -all -of_objects [get_fileset sources_1] {C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.sdk/signal_test/Debug/signal_test.elf}]
+set_property SCOPED_TO_CELLS { microblaze_0 } [get_files -all -of_objects [get_fileset sources_1] {C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.sdk/signal_test/Debug/signal_test.elf}]
+set_property SCOPED_TO_REF mb_design [get_files -all -of_objects [get_fileset sim_1] {C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.sdk/signal_test/Debug/signal_test.elf}]
+set_property SCOPED_TO_CELLS { microblaze_0 } [get_files -all -of_objects [get_fileset sim_1] {C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.sdk/signal_test/Debug/signal_test.elf}]
+launch_simulation
+source mb_design_tb.tcl
+restart
+run 10 us
+run 10 us
+open_bd_design {C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sources_1/bd/mb_design/mb_design.bd}
+open_bd_design {C:/Users/Magda/Desktop/Projekt_SDUP/SDUP_Project/AXI/signal_acc/signal_acc.srcs/sources_1/bd/mb_design/mb_design.bd}
+close_sim
