@@ -1,0 +1,3 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: File data_rom.hex referenced on c:/users/magda/desktop/micro/ip_repo/signal_ip_1.0/hdl/dual_port_rom.v at line 18 cannot be opened for reading. Please ensure that this file is available in the current working directory.

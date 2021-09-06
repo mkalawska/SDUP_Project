@@ -1,0 +1,6 @@
+18:06:04 INFO  : Registering command handlers for SDK TCF services
+18:06:07 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Magda\Desktop\Micro\signal_acc\signal_acc.sdk\temp_xsdb_launch_script.tcl
+18:06:12 INFO  : XSCT server has started successfully.
+18:06:13 INFO  : Successfully done setting XSCT server connection channel  
+18:06:13 INFO  : Processing command line option -hwspec C:/Users/Magda/Desktop/Micro/signal_acc/signal_acc.sdk/mb_design_wrapper.hdf.
+18:06:13 INFO  : Successfully done setting SDK workspace  
