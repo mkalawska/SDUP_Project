@@ -457,8 +457,6 @@ begin
 end
 //Assign zeros to unused bits
 assign slv_wire2[31:1] = 31'b0;
- assign slv_wire3[31:0] = 32'b0;
- assign slv_wire4[31:0] = 32'b0;
  
  signal_rtl signal_rtl_inst( S_AXI_ACLK, //clock,
                             ARESET, //reset,

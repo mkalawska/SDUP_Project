@@ -55,3 +55,6 @@ mb-size signal_test.elf  |tee "signal_test.elf.size"
 19:56:01 **** Incremental Build of configuration Debug for project signal_test ****
 make all 
 make: Nothing to be done for 'all'.
+22:08:24 **** Incremental Build of configuration Debug for project signal_test ****
+make all 
+make: Nothing to be done for 'all'.
