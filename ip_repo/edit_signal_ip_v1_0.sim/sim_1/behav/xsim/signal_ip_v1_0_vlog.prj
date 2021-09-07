@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../signal_ip_1.0/hdl/dual_port_rom.v" \
+"../../../../signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v" \
+"../../../../signal_ip_1.0/hdl/signal_rtl.v" \
+"../../../../signal_ip_1.0/hdl/signal_ip_v1_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

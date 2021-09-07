@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+c:/users/user/desktop/studia/sdup/last_one/ip_repo/edit_signal_ip_v1_0.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/dual_port_rom.v,1630952984,verilog,,c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v,,dual_port_rom,,,,,,,,
+c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0.v,1630951895,verilog,,,,signal_ip_v1_0,,,,,,,,
+c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v,1631024800,verilog,,c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_rtl.v,,dual_port_rom_1;signal_ip_v1_0_S00_AXI,,,,,,,,
+c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_rtl.v,1630952168,verilog,,c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0.v,,signal_rtl,,,,,,,,

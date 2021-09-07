@@ -1,0 +1,21 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c81c67cf775943d59c6e26baa3c3c1c0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot signal_ip_v1_0_behav xil_defaultlib.signal_ip_v1_0 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'A' [c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v:466]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'B' [c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v:467]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'C' [c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v:468]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'R' [c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v:469]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 50 for port 'RE' [c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v:471]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 50 for port 'IM' [c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v:472]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dual_port_rom
+Compiling module xil_defaultlib.signal_rtl
+Compiling module xil_defaultlib.signal_ip_v1_0_S00_AXI_default
+Compiling module xil_defaultlib.signal_ip_v1_0
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot signal_ip_v1_0_behav

@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/dual_port_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_port_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signal_ip_v1_0_S00_AXI
+INFO: [VRFC 10-311] analyzing module signal_rtl
+INFO: [VRFC 10-311] analyzing module dual_port_rom_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_rtl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signal_rtl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'signal_rtl' [c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_rtl.v:7]
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signal_ip_v1_0
