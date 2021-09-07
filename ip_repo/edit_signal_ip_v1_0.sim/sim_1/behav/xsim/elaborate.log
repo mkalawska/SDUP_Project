@@ -10,12 +10,4 @@ WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 f
 WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 50 for port 'RE' [c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v:471]
 WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 50 for port 'IM' [c:/users/user/desktop/studia/sdup/last_one/ip_repo/signal_ip_1.0/hdl/signal_ip_v1_0_S00_AXI.v:472]
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.dual_port_rom
-Compiling module xil_defaultlib.signal_rtl
-Compiling module xil_defaultlib.signal_ip_v1_0_S00_AXI_default
-Compiling module xil_defaultlib.signal_ip_v1_0
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot signal_ip_v1_0_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
