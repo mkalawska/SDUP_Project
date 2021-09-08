@@ -1,0 +1,285 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Sep  7 22:20:37 2021
+# Process ID: 13624
+# Current directory: C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14596 C:\Users\Magda\Desktop\SDUP_project\SDUP_Project\signal_acc\signal_acc.xpr
+# Log file: C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/vivado.log
+# Journal file: C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source mb_design_tb.tcl
+restart
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+add_bp {C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v} 35
+remove_bps -file {C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v} -line 35
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run 10 us
+run 10 us
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run 10 us
+run 10 us
+run 10 us
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+add_bp {C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v} 29
+remove_bps -file {C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v} -line 29
+add_bp {C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v} 31
+remove_bps -file {C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v} -line 31
+add_bp {C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v} 32
+remove_bps -file {C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v} -line 32
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source mb_design_tb.tcl
+run all
+add_bp {C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v} 70
+remove_bps -file {C:/Users/Magda/Desktop/SDUP_project/SDUP_Project/signal_acc/signal_acc.srcs/sim_1/new/mb_design_tb.v} -line 70
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run 10 us
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
+launch_simulation
+source mb_design_tb.tcl
+run all
+close_sim
