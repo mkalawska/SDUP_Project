@@ -33,10 +33,10 @@ real r_r;
 
          
  // Dip switches stimulus
-assign A = r_a * iter;
-assign B = r_b * iter;
-assign C = r_c * iter;
-assign R = r_r * iter;
+assign A = r_a;
+assign B = r_b;
+assign C = r_c;
+assign R = r_r;
  
  // Reset stimulus
  initial
