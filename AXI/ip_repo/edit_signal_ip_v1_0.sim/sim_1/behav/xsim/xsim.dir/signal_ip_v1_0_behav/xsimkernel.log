@@ -1,7 +1,0 @@
-Running: xsim.dir/signal_ip_v1_0_behav/xsimk.exe -simmode gui -wdb signal_ip_v1_0_behav.wdb -simrunnum 0 -socket 7731
-Design successfully loaded
-Design Loading Memory Usage: 5828 KB (Peak: 5828 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 6536 KB (Peak: 6536 KB)
-Simulation CPU Usage: 15 ms
